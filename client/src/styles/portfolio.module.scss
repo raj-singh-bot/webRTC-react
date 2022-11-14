@@ -1,0 +1,309 @@
+.homeContainer {
+  // max-width: 1350px;
+  // margin: auto;
+}
+
+.heroPadding {
+  padding: 33px 25px;
+}
+
+.portfolioSection {
+  // background-image: url("../public/portfolioBg.png");
+  // background-size: cover;
+  // background-position: center;
+  // overflow: hidden;
+}
+
+.portContentSubDiv {
+  /* display: flex; */
+  // display: grid;
+  // grid-template-columns: 70% auto;
+  // align-items: center;
+  // justify-content: space-between;
+}
+
+.portHeading {
+  color: var(--white) !important;
+  text-transform: uppercase;
+  font-weight: 400;
+  font-size: 33px;
+  border-left: 3px solid white;
+  padding-left: 17px;
+}
+
+.portHeadingSpan {
+  color: var(--orange);
+  font-weight: 900;
+}
+
+.portSubHeading {
+  color: var(--white);
+  text-transform: uppercase;
+  font-weight: bold;
+  font-size: 27px;
+}
+
+.portSubHeadingSpan {
+  color: var(--orange);
+}
+
+.portContentDiv {
+  max-width: 665px;
+  margin-top: 75px;
+}
+
+.portPara {
+  color: var(--white);
+  font-weight: 300;
+  margin-bottom: 45px;
+  line-height: 1.4;
+}
+
+.portButton {
+  color: var(--white);
+  background: linear-gradient(to right, #FF916B 65%, transparent 50%) right;
+  background-size: 200%;
+  transition: .7s ease-out;
+  border: none;
+  padding: 13px 17px;
+  /* text-transform: uppercase; */
+  font-size: 22px;
+  font-weight: 700;
+  cursor: pointer;
+}
+
+.portButton:hover {
+    background-position: left;
+  }
+
+  .portBtn {
+    margin-right: 10px;
+  }
+
+.portYear {
+  color: var(--year);
+  font-size: 18.85vw;
+  margin: 0;
+  display: inline-block;
+  // margin-right: -180px;
+}
+
+.portYearSpan {
+  color: var(--orange);
+}
+// .portImgMainDiv{
+//   background-image: url("../public/portfolioBg.png");
+//   background-size: cover;
+//   background-position: bottom center;
+//   width: 180vw;
+// }
+.portImgDiv {
+  width: 100vw;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+  padding-top: 100px;
+  padding-bottom: 70px;
+  margin-top: -1px;
+  max-width: 1350px;
+  margin: auto;
+  margin-left: 0;
+}
+
+.portImgs {
+  width: 100%;
+  margin-bottom: 20px;
+}
+
+.portSubImgs{
+  text-align: center;
+  width: 135px;
+  margin: 0 10px;
+}
+
+.slideDiv{
+  transform: matrix(1, 0, 0, 1, -1176.67, 0)
+}
+
+@media only screen and (max-width: 1308px) {
+  .portImgDiv {
+    justify-content: flex-start;
+  }
+
+  .portImgs {
+    margin-bottom: 45px;
+  }
+}
+
+@media only screen and (max-width: 1024px) {
+  .portYear {
+    margin-right: -97px;
+  }
+}
+
+@media only screen and (max-width: 798px) {
+  .portContentDiv {
+    margin-top: 45px;
+  }
+}
+
+@media only screen and (max-width: 656px) {
+  .portContentSubDiv {
+    grid-template-columns: auto;
+  }
+
+  .portImgDiv {
+    margin-top: 30px;
+    margin-bottom: 40px;
+  }
+
+  .portYear {
+    margin-right: 0;
+  }
+
+  .portContentDiv {
+    margin-top: 45px;
+  }
+
+  .portHeading {
+    font-size: 30px;
+  }
+
+  .portSubHeading {
+    font-size: 23px;
+  }
+}
+
+@media only screen and (max-width: 453px) {
+  .portYear {
+    font-size: 8rem;
+  }
+}
+
+// ========================================
+
+// .portContentMainDiv{
+//   width: 180vw;
+//   display: flex;
+//   background-image: url("../");
+//   background-size: cover;
+//   background-position: center;
+// }
+
+// .portContentOne{
+//   width: 70vw;
+//   padding: 33px 25px;
+//   max-width: 1350px;
+//   margin: auto;
+// }
+
+// .portContentTwo{
+//   width: 60vw;
+// }
+
+// .portContentThree{
+//   width: 50vw;
+// }
+
+// .yearAndBackDiv{
+//   display: flex;
+//   align-items: center;
+//   // justify-content: center;
+// }
+// ==========================================================================
+
+.lineportfolioSection{
+}
+
+.linePortPadding{
+  padding: 30px 30px;
+}
+
+.linemainPortfolio{
+  width: 160vw;
+  display: flex;
+  align-items: center;
+  // justify-content: center;
+  background-image: url("../../public/portfolioBg.png");
+  background-size: cover;
+  background-position: center;
+}
+
+.linecontentAndYearDiv{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 30px 0;
+  width: 92%;
+  margin-left: auto;
+}
+
+.linecontentFirstHalf{
+  width: 90vw;
+}
+
+.linecontentMainDiv{
+  width: 50vw;
+}
+
+.lineyearAndArrowDiv{
+  width: 33vw;
+}
+
+.lineyearAndArrowSubDiv{
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+}
+
+.lineyearFirstHalf{
+  font-size: 18vw;
+  margin: 0;
+}
+
+.linesliderBackArrowDiv{
+  max-width: 43px; 
+  margin-right: 32px;
+}
+
+.linesliderBackArrowImg{
+  width: 100%;
+}
+
+.linecontentSecondHalf{
+  width: 50vw;
+}
+
+.lineslidingYearAndImgs{
+  display: flex;
+  align-items: center;
+}
+
+.lineslidingYear{
+  font-size: 18vw;
+  margin: 0;
+  // margin-bottom: -14px;
+}
+
+// .slidingImgsMainDiv{
+//   display: grid;
+//   grid-template-columns: auto auto;
+//   align-items: center;
+//   margin-left: 90px;
+//   opacity: 0;
+//   display: none;
+// }
+
+
+.slidingImgsDiv{
+  margin: 18px;
+  width: 87%;
+}
+.slick-center div div div div.slidingImgsMainDiv{
+  opacity: 1 !important;
+  display: block;
+}
+.slick-current div div div div.slidingImgsMainDiv{
+  opacity: 1 !important;
+}

@@ -1,0 +1,85 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  height: 100vh;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+.slick-center{
+
+  color: pink;
+opacity: 1;
+}
+
+.slick-center div div div div.slidingImgsMainDiv{
+  opacity: 1 !important;
+}
+.slick-list{
+  padding: 180px 0 !important;
+}
+
+.slidingImgsMainDiv{
+  display: grid;
+  grid-template-columns: auto auto;
+  align-items: center;
+  margin-left: 90px;
+  opacity: 0;
+  /* display: none; */
+}
+
+#yearSlider div div.slick-next{
+
+  top: unset;
+
+  bottom: 20%;
+
+  left: 15%;
+
+}
+/* .slick-slide{
+  margin: 20px 0;
+} */
+
+
+#yearSlider div div.slick-prev{
+
+  top: 20%;
+
+  left: 15%;
+  z-index: 111;
+
+}
+
+
+
+#yearSlider div div.slick-next:before{
+
+  display: none;
+
+}
+
+
+
+#yearSlider div div.slick-prev:before{
+
+  display: none;
+
+
+}
+/* .slidingImgsMainDiv{
+  opacity: 0;
+  display: none;
+} */
+@media only screen and (max-width: 1000px){
+  .slick-list{
+    padding: 90px 0 !important;
+  }
+}
