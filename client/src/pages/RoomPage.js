@@ -40,7 +40,7 @@ const RoomPage = () => {
 
     const handleNegosiation = useCallback(async() => {
       console.log('nego please');
-      const localOffer = await peer.createOffer();
+      const localOffer = await peer.setLocalDescription()
       socket.emit('call-user', {emailId: remoteEmailId, offer: localOffer})
       console.log('nego done', localOffer)
     }, [])

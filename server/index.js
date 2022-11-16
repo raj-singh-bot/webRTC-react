@@ -1,11 +1,14 @@
 const express = require('express')
 const bodyParser = require('body-parser')
+const cors = require('cors')
 const {Server} = require('socket.io')
 
 const io = new Server({
     cors: true
 })
 const app = express()
+
+app.use(cors())
 
 app.use(bodyParser.json())
 
